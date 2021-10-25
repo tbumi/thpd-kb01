@@ -1543,27 +1543,25 @@ Wire Wire Line
 $Comp
 L MX_Alps_Hybrid:MX-NoLED MX66
 U 1 1 618BED9D
-P 6650 4700
-F 0 "MX66" H 6683 4923 60  0000 C CNN
-F 1 "RShift" H 6683 4849 20  0000 C CNN
-F 2 "MX_Alps_Hybrid:MX-1.75U-NoLED" H 6025 4675 60  0001 C CNN
-F 3 "" H 6025 4675 60  0001 C CNN
-	1    6650 4700
+P 7100 4700
+F 0 "MX66" H 7133 4923 60  0000 C CNN
+F 1 "RShift" H 7133 4849 20  0000 C CNN
+F 2 "MX_Alps_Hybrid:MX-1.75U-NoLED" H 6475 4675 60  0001 C CNN
+F 3 "" H 6475 4675 60  0001 C CNN
+	1    7100 4700
 	1    0    0    -1  
 $EndComp
 $Comp
 L Device:D_Small D66
 U 1 1 618BEDA7
-P 6500 4950
-F 0 "D66" V 6546 4880 50  0000 R CNN
-F 1 "D_Small" V 6455 4880 50  0000 R CNN
-F 2 "Diode_SMD:D_SOD-123" V 6500 4950 50  0001 C CNN
-F 3 "~" V 6500 4950 50  0001 C CNN
-	1    6500 4950
+P 6950 4950
+F 0 "D66" V 6996 4880 50  0000 R CNN
+F 1 "D_Small" V 6905 4880 50  0000 R CNN
+F 2 "Diode_SMD:D_SOD-123" V 6950 4950 50  0001 C CNN
+F 3 "~" V 6950 4950 50  0001 C CNN
+	1    6950 4950
 	0    -1   -1   0   
 $EndComp
-Wire Wire Line
-	6500 4850 6600 4850
 $Comp
 L MX_Alps_Hybrid:MX-NoLED MX67
 U 1 1 618BEDB2
@@ -2662,9 +2660,6 @@ Connection ~ 5550 5050
 Wire Wire Line
 	5550 5050 6000 5050
 Connection ~ 6000 5050
-Wire Wire Line
-	6000 5050 6500 5050
-Connection ~ 6500 5050
 Connection ~ 7450 5050
 Wire Wire Line
 	7450 5050 7900 5050
@@ -2782,8 +2777,6 @@ Wire Wire Line
 Connection ~ 6300 4650
 Wire Wire Line
 	6300 4650 6300 4000
-Wire Wire Line
-	6800 5300 6800 4650
 Connection ~ 6800 2050
 Connection ~ 6800 2700
 Wire Wire Line
@@ -2794,9 +2787,6 @@ Wire Wire Line
 Connection ~ 6800 4000
 Wire Wire Line
 	6800 4000 6800 3350
-Connection ~ 6800 4650
-Wire Wire Line
-	6800 4650 6800 4000
 Connection ~ 7250 2050
 Connection ~ 7250 2700
 Wire Wire Line
@@ -2918,8 +2908,6 @@ Wire Wire Line
 Wire Wire Line
 	8400 5700 8850 5700
 Wire Wire Line
-	6500 5050 7450 5050
-Wire Wire Line
 	8200 3350 8200 4000
 Connection ~ 8400 2450
 Wire Wire Line
@@ -2938,7 +2926,7 @@ Wire Wire Line
 Wire Wire Line
 	6500 4400 7900 4400
 Wire Wire Line
-	7250 3350 7250 5300
+	7250 3350 7250 4650
 Connection ~ 8850 5700
 Wire Wire Line
 	8850 5700 9300 5700
@@ -3037,4 +3025,16 @@ Text HLabel 9150 1500 1    50   Input ~ 0
 COL16
 Text HLabel 9600 1500 1    50   Input ~ 0
 COL17
+Connection ~ 7250 4650
+Wire Wire Line
+	7250 4650 7250 5300
+Wire Wire Line
+	6800 4000 6800 5300
+Connection ~ 6950 5050
+Wire Wire Line
+	6950 5050 7450 5050
+Wire Wire Line
+	6000 5050 6950 5050
+Wire Wire Line
+	6950 4850 7050 4850
 $EndSCHEMATC
