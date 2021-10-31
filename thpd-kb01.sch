@@ -382,78 +382,6 @@ Text GLabel 2600 2650 0    50   Input ~ 0
 D-
 Wire Wire Line
 	3700 4850 4150 4850
-$Comp
-L random-keyboard-parts:Molex-0548190589 USB1
-U 1 1 61778ED3
-P 1250 6350
-F 0 "USB1" V 1787 6317 60  0000 C CNN
-F 1 "Molex-0548190589" V 1681 6317 60  0000 C CNN
-F 2 "random-keyboard-parts:Molex-0548190589" H 1250 6350 60  0001 C CNN
-F 3 "" H 1250 6350 60  0001 C CNN
-	1    1250 6350
-	0    -1   -1   0   
-$EndComp
-$Comp
-L Device:Polyfuse_Small F1
-U 1 1 61779F39
-P 2150 6150
-F 0 "F1" V 1945 6150 50  0000 C CNN
-F 1 "500mA" V 2036 6150 50  0000 C CNN
-F 2 "Fuse:Fuse_1206_3216Metric" H 2200 5950 50  0001 L CNN
-F 3 "~" H 2150 6150 50  0001 C CNN
-	1    2150 6150
-	0    1    1    0   
-$EndComp
-Wire Wire Line
-	1550 6150 1800 6150
-$Comp
-L power:+5V #PWR06
-U 1 1 6177BB60
-P 2650 6150
-F 0 "#PWR06" H 2650 6000 50  0001 C CNN
-F 1 "+5V" H 2665 6323 50  0000 C CNN
-F 2 "" H 2650 6150 50  0001 C CNN
-F 3 "" H 2650 6150 50  0001 C CNN
-	1    2650 6150
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	2250 6150 2650 6150
-$Comp
-L power:VCC #PWR04
-U 1 1 6177DA57
-P 1800 6150
-F 0 "#PWR04" H 1800 6000 50  0001 C CNN
-F 1 "VCC" H 1815 6323 50  0000 C CNN
-F 2 "" H 1800 6150 50  0001 C CNN
-F 3 "" H 1800 6150 50  0001 C CNN
-	1    1800 6150
-	1    0    0    -1  
-$EndComp
-Connection ~ 1800 6150
-Wire Wire Line
-	1800 6150 2050 6150
-Text GLabel 1700 6350 2    50   Input ~ 0
-D+
-Text GLabel 1700 6250 2    50   Input ~ 0
-D-
-Wire Wire Line
-	1700 6250 1550 6250
-Wire Wire Line
-	1550 6350 1700 6350
-$Comp
-L power:GND #PWR03
-U 1 1 61781036
-P 1750 6550
-F 0 "#PWR03" H 1750 6300 50  0001 C CNN
-F 1 "GND" H 1755 6377 50  0000 C CNN
-F 2 "" H 1750 6550 50  0001 C CNN
-F 3 "" H 1750 6550 50  0001 C CNN
-	1    1750 6550
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	1750 6550 1550 6550
 Wire Wire Line
 	4850 3650 4900 3650
 Wire Wire Line
@@ -488,4 +416,125 @@ F23 "COL15" I L 6550 3700 50
 F24 "COL16" I L 6550 3800 50 
 F25 "COL17" I L 6550 3900 50 
 $EndSheet
+$Comp
+L power:GND #PWR03
+U 1 1 61781036
+P 1050 7200
+F 0 "#PWR03" H 1050 6950 50  0001 C CNN
+F 1 "GND" H 1055 7027 50  0000 C CNN
+F 2 "" H 1050 7200 50  0001 C CNN
+F 3 "" H 1050 7200 50  0001 C CNN
+	1    1050 7200
+	1    0    0    -1  
+$EndComp
+Text GLabel 2200 6200 2    50   Input ~ 0
+D-
+Text GLabel 2200 6300 2    50   Input ~ 0
+D+
+Wire Wire Line
+	2200 5600 2450 5600
+$Comp
+L power:VCC #PWR04
+U 1 1 6177DA57
+P 2200 5600
+F 0 "#PWR04" H 2200 5450 50  0001 C CNN
+F 1 "VCC" H 2215 5773 50  0000 C CNN
+F 2 "" H 2200 5600 50  0001 C CNN
+F 3 "" H 2200 5600 50  0001 C CNN
+	1    2200 5600
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2650 5600 3050 5600
+$Comp
+L power:+5V #PWR06
+U 1 1 6177BB60
+P 3050 5600
+F 0 "#PWR06" H 3050 5450 50  0001 C CNN
+F 1 "+5V" H 3065 5773 50  0000 C CNN
+F 2 "" H 3050 5600 50  0001 C CNN
+F 3 "" H 3050 5600 50  0001 C CNN
+	1    3050 5600
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:Polyfuse_Small F1
+U 1 1 61779F39
+P 2550 5600
+F 0 "F1" V 2345 5600 50  0000 C CNN
+F 1 "500mA" V 2436 5600 50  0000 C CNN
+F 2 "Fuse:Fuse_1206_3216Metric" H 2600 5400 50  0001 L CNN
+F 3 "~" H 2550 5600 50  0001 C CNN
+	1    2550 5600
+	0    1    1    0   
+$EndComp
+$Comp
+L Connector:USB_C_Receptacle_USB2.0 J1
+U 1 1 61899044
+P 1350 6200
+F 0 "J1" H 1457 7067 50  0000 C CNN
+F 1 "USB_C_Receptacle_USB2.0" H 1457 6976 50  0000 C CNN
+F 2 "Connector_USB:USB_C_Receptacle_JAE_DX07S024WJ3R400" H 1500 6200 50  0001 C CNN
+F 3 "https://www.usb.org/sites/default/files/documents/usb_type-c.zip" H 1500 6200 50  0001 C CNN
+	1    1350 6200
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1350 7100 1050 7100
+Wire Wire Line
+	1050 7200 1050 7100
+Connection ~ 1050 7100
+Wire Wire Line
+	1950 5600 2200 5600
+Connection ~ 2200 5600
+Wire Wire Line
+	2200 6200 1950 6200
+Wire Wire Line
+	1950 6100 1950 6200
+Connection ~ 1950 6200
+Wire Wire Line
+	1950 6400 1950 6300
+Wire Wire Line
+	1950 6300 2200 6300
+Connection ~ 1950 6300
+NoConn ~ 1950 6700
+NoConn ~ 1950 6800
+$Comp
+L Device:R_Small R5
+U 1 1 618A7116
+P 2600 6000
+F 0 "R5" H 2541 5954 50  0000 R CNN
+F 1 "5.1k" H 2541 6045 50  0000 R CNN
+F 2 "Resistor_SMD:R_0805_2012Metric" H 2600 6000 50  0001 C CNN
+F 3 "~" H 2600 6000 50  0001 C CNN
+	1    2600 6000
+	-1   0    0    1   
+$EndComp
+$Comp
+L Device:R_Small R6
+U 1 1 618A870D
+P 2900 6000
+F 0 "R6" H 2959 6046 50  0000 L CNN
+F 1 "5.1k" H 2959 5955 50  0000 L CNN
+F 2 "Resistor_SMD:R_0805_2012Metric" H 2900 6000 50  0001 C CNN
+F 3 "~" H 2900 6000 50  0001 C CNN
+	1    2900 6000
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1950 5900 2600 5900
+Wire Wire Line
+	1950 5800 2900 5800
+Wire Wire Line
+	2600 6100 2600 7100
+Wire Wire Line
+	2600 7100 1350 7100
+Connection ~ 1350 7100
+Connection ~ 2600 7100
+Wire Wire Line
+	2900 5800 2900 5900
+Wire Wire Line
+	2900 6100 2900 7100
+Wire Wire Line
+	2900 7100 2600 7100
 $EndSCHEMATC
