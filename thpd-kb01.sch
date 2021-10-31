@@ -323,7 +323,7 @@ U 1 1 617640BA
 P 3350 1550
 F 0 "SW1" H 3350 1835 50  0000 C CNN
 F 1 "SW_Push" H 3350 1744 50  0000 C CNN
-F 2 "random-keyboard-parts:SKQG-1155865" H 3350 1750 50  0001 C CNN
+F 2 "random-keyboard-parts:SKQGADE010" H 3350 1750 50  0001 C CNN
 F 3 "~" H 3350 1750 50  0001 C CNN
 	1    3350 1550
 	1    0    0    -1  
@@ -474,7 +474,7 @@ U 1 1 61899044
 P 1350 6200
 F 0 "J1" H 1457 7067 50  0000 C CNN
 F 1 "USB_C_Receptacle_USB2.0" H 1457 6976 50  0000 C CNN
-F 2 "Connector_USB:USB_C_Receptacle_JAE_DX07S024WJ3R400" H 1500 6200 50  0001 C CNN
+F 2 "Connector_USB:USB_C_Receptacle_HRO_TYPE-C-31-M-12" H 1500 6200 50  0001 C CNN
 F 3 "https://www.usb.org/sites/default/files/documents/usb_type-c.zip" H 1500 6200 50  0001 C CNN
 	1    1350 6200
 	1    0    0    -1  
