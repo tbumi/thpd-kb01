@@ -1,2 +1,3 @@
 (fp_lib_table
+  (lib (name thpd-kb01-custom)(type KiCad)(uri ${KIPRJMOD}/thpd-kb01-custom.pretty)(options "")(descr ""))
 )
