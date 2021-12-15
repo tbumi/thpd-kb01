@@ -290,99 +290,81 @@ $EndComp
 $Comp
 L power:+3.3V #PWR014
 U 1 1 6193E995
-P 1850 4050
-F 0 "#PWR014" H 1850 3900 50  0001 C CNN
-F 1 "+3.3V" H 1865 4223 50  0000 C CNN
-F 2 "" H 1850 4050 50  0001 C CNN
-F 3 "" H 1850 4050 50  0001 C CNN
-	1    1850 4050
+P 1050 4600
+F 0 "#PWR014" H 1050 4450 50  0001 C CNN
+F 1 "+3.3V" H 1065 4773 50  0000 C CNN
+F 2 "" H 1050 4600 50  0001 C CNN
+F 3 "" H 1050 4600 50  0001 C CNN
+	1    1050 4600
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	1950 4150 1850 4150
+	1150 4700 1050 4700
 Wire Wire Line
-	1850 4150 1850 4050
+	1050 4700 1050 4600
 $Comp
 L power:GND #PWR015
 U 1 1 6193FF44
-P 1850 4400
-F 0 "#PWR015" H 1850 4150 50  0001 C CNN
-F 1 "GND" H 1855 4227 50  0000 C CNN
-F 2 "" H 1850 4400 50  0001 C CNN
-F 3 "" H 1850 4400 50  0001 C CNN
-	1    1850 4400
+P 1050 4950
+F 0 "#PWR015" H 1050 4700 50  0001 C CNN
+F 1 "GND" H 1055 4777 50  0000 C CNN
+F 2 "" H 1050 4950 50  0001 C CNN
+F 3 "" H 1050 4950 50  0001 C CNN
+	1    1050 4950
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	1950 4350 1850 4350
+	1150 4900 1050 4900
 Wire Wire Line
-	1850 4350 1850 4400
-$Comp
-L Device:R_Small R5
-U 1 1 61940DE7
-P 2550 4250
-F 0 "R5" V 2354 4250 50  0000 C CNN
-F 1 "10k" V 2445 4250 50  0000 C CNN
-F 2 "Resistor_SMD:R_0603_1608Metric" H 2550 4250 50  0001 C CNN
-F 3 "~" H 2550 4250 50  0001 C CNN
-	1    2550 4250
-	0    1    1    0   
-$EndComp
+	1050 4900 1050 4950
 $Comp
 L Switch:SW_Push SW1
 U 1 1 61942FCD
-P 3100 3550
-F 0 "SW1" H 3100 3835 50  0000 C CNN
-F 1 "SW_Push" H 3100 3744 50  0000 C CNN
-F 2 "Button_Switch_SMD:SW_Push_SPST_NO_Alps_SKRK" H 3100 3750 50  0001 C CNN
-F 3 "~" H 3100 3750 50  0001 C CNN
-	1    3100 3550
+P 1300 3600
+F 0 "SW1" H 1300 3885 50  0000 C CNN
+F 1 "SW_Push" H 1300 3794 50  0000 C CNN
+F 2 "Button_Switch_SMD:SW_Push_SPST_NO_Alps_SKRK" H 1300 3800 50  0001 C CNN
+F 3 "~" H 1300 3800 50  0001 C CNN
+	1    1300 3600
 	1    0    0    -1  
 $EndComp
 $Comp
 L power:GND #PWR013
 U 1 1 6194CE67
-P 2850 3900
-F 0 "#PWR013" H 2850 3650 50  0001 C CNN
-F 1 "GND" H 2855 3727 50  0000 C CNN
-F 2 "" H 2850 3900 50  0001 C CNN
-F 3 "" H 2850 3900 50  0001 C CNN
-	1    2850 3900
+P 1050 3950
+F 0 "#PWR013" H 1050 3700 50  0001 C CNN
+F 1 "GND" H 1055 3777 50  0000 C CNN
+F 2 "" H 1050 3950 50  0001 C CNN
+F 3 "" H 1050 3950 50  0001 C CNN
+	1    1050 3950
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	2650 4250 3450 4250
 $Comp
 L Device:C_Small C11
 U 1 1 619518C0
-P 3100 3800
-F 0 "C11" H 3192 3846 50  0000 L CNN
-F 1 "100nF" H 3192 3755 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0402_1005Metric" H 3100 3800 50  0001 C CNN
-F 3 "~" H 3100 3800 50  0001 C CNN
-	1    3100 3800
+P 1300 3850
+F 0 "C11" H 1392 3896 50  0000 L CNN
+F 1 "100nF" H 1392 3805 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0402_1005Metric" H 1300 3850 50  0001 C CNN
+F 3 "~" H 1300 3850 50  0001 C CNN
+	1    1300 3850
 	0    1    1    0   
 $EndComp
 Wire Wire Line
-	3000 3800 2850 3800
-Connection ~ 2850 3800
+	1200 3850 1050 3850
+Connection ~ 1050 3850
 Wire Wire Line
-	3450 4050 3350 4050
+	1400 3850 1550 3850
 Wire Wire Line
-	3350 4050 3350 3800
+	1050 3600 1100 3600
 Wire Wire Line
-	3200 3800 3350 3800
-Connection ~ 3350 3800
+	1050 3600 1050 3850
 Wire Wire Line
-	2850 3550 2900 3550
+	1550 3600 1500 3600
 Wire Wire Line
-	2850 3550 2850 3800
+	1550 3600 1550 3850
 Wire Wire Line
-	3350 3550 3300 3550
-Wire Wire Line
-	3350 3550 3350 3800
-Wire Wire Line
-	2850 3800 2850 3900
+	1050 3850 1050 3950
 $Comp
 L Device:C_Small C3
 U 1 1 61960CDC
@@ -1017,16 +999,16 @@ F 3 "~" H 2100 6350 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	2350 4250 2450 4250
+	1550 4800 1650 4800
 $Comp
 L Switch:SW_SPDT SW2
 U 1 1 6193D42E
-P 2150 4250
-F 0 "SW2" H 2150 3925 50  0000 C CNN
-F 1 "SW_SPDT" H 2150 4016 50  0000 C CNN
-F 2 "thpd-kb01-custom:SW_SPDT_K3-1296S-E1" H 2150 4250 50  0001 C CNN
-F 3 "~" H 2150 4250 50  0001 C CNN
-	1    2150 4250
+P 1350 4800
+F 0 "SW2" H 1350 4475 50  0000 C CNN
+F 1 "SW_SPDT" H 1350 4566 50  0000 C CNN
+F 2 "thpd-kb01-custom:SW_SPDT_K3-1296S-E1" H 1350 4800 50  0001 C CNN
+F 3 "~" H 1350 4800 50  0001 C CNN
+	1    1350 4800
 	-1   0    0    1   
 $EndComp
 $Sheet
@@ -1040,9 +1022,9 @@ Text GLabel 1700 7150 3    50   Input ~ 0
 ROT_SW_COL
 Text GLabel 1500 7150 3    50   Input ~ 0
 ROT_SW_ROW
-Text GLabel 3450 6350 0    50   Input ~ 0
+Text GLabel 3450 6250 0    50   Input ~ 0
 ROT_A
-Text GLabel 3450 6450 0    50   Input ~ 0
+Text GLabel 3450 6350 0    50   Input ~ 0
 ROT_B
 Wire Wire Line
 	6200 5350 4750 5350
@@ -1096,43 +1078,43 @@ Text GLabel 6200 4750 0    50   Input ~ 0
 COL17
 Text GLabel 6200 4850 0    50   Input ~ 0
 COL18
-Text GLabel 4750 6550 2    50   Input ~ 0
-COL0
-Text GLabel 4750 6650 2    50   Input ~ 0
-COL1
-Text GLabel 3450 5450 0    50   Input ~ 0
-COL2
-Text GLabel 3450 5550 0    50   Input ~ 0
-COL3
-Text GLabel 3450 5650 0    50   Input ~ 0
-COL4
-Text GLabel 3450 5750 0    50   Input ~ 0
-COL5
-Text GLabel 3450 5850 0    50   Input ~ 0
-COL6
-Text GLabel 3450 5950 0    50   Input ~ 0
-COL7
-Text GLabel 3450 6050 0    50   Input ~ 0
-COL8
-Text GLabel 3450 5150 0    50   Input ~ 0
-COL9
-Text GLabel 3450 5250 0    50   Input ~ 0
-COL10
-Text GLabel 3450 5350 0    50   Input ~ 0
-COL11
-Text GLabel 3450 6150 0    50   Input ~ 0
-COL12
-Text GLabel 3450 6250 0    50   Input ~ 0
-COL13
 Text GLabel 3450 6550 0    50   Input ~ 0
-COL14
+COL0
 Text GLabel 3450 6650 0    50   Input ~ 0
-COL15
+COL1
 Text GLabel 4750 5950 2    50   Input ~ 0
-COL16
+COL2
 Text GLabel 4750 6050 2    50   Input ~ 0
-COL17
+COL3
 Text GLabel 4750 6150 2    50   Input ~ 0
+COL4
+Text GLabel 4750 6450 2    50   Input ~ 0
+COL5
+Text GLabel 4750 6550 2    50   Input ~ 0
+COL6
+Text GLabel 4750 6650 2    50   Input ~ 0
+COL7
+Text GLabel 3450 5450 0    50   Input ~ 0
+COL8
+Text GLabel 3450 5550 0    50   Input ~ 0
+COL9
+Text GLabel 3450 5650 0    50   Input ~ 0
+COL10
+Text GLabel 3450 5750 0    50   Input ~ 0
+COL11
+Text GLabel 3450 5850 0    50   Input ~ 0
+COL12
+Text GLabel 3450 5950 0    50   Input ~ 0
+COL13
+Text GLabel 3450 6050 0    50   Input ~ 0
+COL14
+Text GLabel 3450 5150 0    50   Input ~ 0
+COL15
+Text GLabel 3450 5250 0    50   Input ~ 0
+COL16
+Text GLabel 3450 5350 0    50   Input ~ 0
+COL17
+Text GLabel 3450 6150 0    50   Input ~ 0
 COL18
 Text GLabel 3450 4750 0    50   Input ~ 0
 ROW0
@@ -1144,8 +1126,29 @@ Text GLabel 3450 4450 0    50   Input ~ 0
 ROW3
 Text GLabel 3450 4550 0    50   Input ~ 0
 ROW4
-Text GLabel 4750 5250 2    50   Input ~ 0
+Text GLabel 3450 6450 0    50   Input ~ 0
 ROW5
 NoConn ~ 4750 5150
-NoConn ~ 4750 6450
+Text GLabel 1950 4800 2    50   Input ~ 0
+BOOT0
+$Comp
+L Device:R_Small R5
+U 1 1 61940DE7
+P 1750 4800
+F 0 "R5" V 1554 4800 50  0000 C CNN
+F 1 "10k" V 1645 4800 50  0000 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" H 1750 4800 50  0001 C CNN
+F 3 "~" H 1750 4800 50  0001 C CNN
+	1    1750 4800
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	1950 4800 1850 4800
+Text GLabel 3450 4250 0    50   Input ~ 0
+BOOT0
+Text GLabel 3450 4050 0    50   Input ~ 0
+NRST
+Text GLabel 1550 3850 2    50   Input ~ 0
+NRST
+NoConn ~ 4750 5250
 $EndSCHEMATC
