@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 1 3
+Sheet 1 2
 Title "thpd-kb01"
 Date ""
 Rev "1.0"
@@ -14,35 +14,35 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 $Sheet
-S 6200 2400 550  2550
+S 6100 3450 550  2550
 U 618363D6
 F0 "keys_matrix" 50
 F1 "thpd-kb01-keys.sch" 50
-F2 "ROW0" I L 6200 2450 50 
-F3 "ROW1" I L 6200 2550 50 
-F4 "ROW2" I L 6200 2650 50 
-F5 "ROW3" I L 6200 2750 50 
-F6 "ROW4" I L 6200 2850 50 
-F7 "ROW5" I L 6200 2950 50 
-F8 "COL0" I L 6200 3050 50 
-F9 "COL1" I L 6200 3150 50 
-F10 "COL2" I L 6200 3250 50 
-F11 "COL3" I L 6200 3350 50 
-F12 "COL4" I L 6200 3450 50 
-F13 "COL5" I L 6200 3550 50 
-F14 "COL6" I L 6200 3650 50 
-F15 "COL7" I L 6200 3750 50 
-F16 "COL8" I L 6200 3850 50 
-F17 "COL9" I L 6200 3950 50 
-F18 "COL10" I L 6200 4050 50 
-F19 "COL11" I L 6200 4150 50 
-F20 "COL12" I L 6200 4250 50 
-F21 "COL13" I L 6200 4350 50 
-F22 "COL14" I L 6200 4450 50 
-F23 "COL15" I L 6200 4550 50 
-F24 "COL16" I L 6200 4650 50 
-F25 "COL17" I L 6200 4750 50 
-F26 "COL18" I L 6200 4850 50 
+F2 "ROW0" I L 6100 3500 50 
+F3 "ROW1" I L 6100 3600 50 
+F4 "ROW2" I L 6100 3700 50 
+F5 "ROW3" I L 6100 3800 50 
+F6 "ROW4" I L 6100 3900 50 
+F7 "ROW5" I L 6100 4000 50 
+F8 "COL0" I L 6100 4100 50 
+F9 "COL1" I L 6100 4200 50 
+F10 "COL2" I L 6100 4300 50 
+F11 "COL3" I L 6100 4400 50 
+F12 "COL4" I L 6100 4500 50 
+F13 "COL5" I L 6100 4600 50 
+F14 "COL6" I L 6100 4700 50 
+F15 "COL7" I L 6100 4800 50 
+F16 "COL8" I L 6100 4900 50 
+F17 "COL9" I L 6100 5000 50 
+F18 "COL10" I L 6100 5100 50 
+F19 "COL11" I L 6100 5200 50 
+F20 "COL12" I L 6100 5300 50 
+F21 "COL13" I L 6100 5400 50 
+F22 "COL14" I L 6100 5500 50 
+F23 "COL15" I L 6100 5600 50 
+F24 "COL16" I L 6100 5700 50 
+F25 "COL17" I L 6100 5800 50 
+F26 "COL18" I L 6100 5900 50 
 $EndSheet
 $Comp
 L power:GND #PWR010
@@ -55,9 +55,9 @@ F 3 "" H 1150 2750 50  0001 C CNN
 	1    1150 2750
 	1    0    0    -1  
 $EndComp
-Text GLabel 4750 6250 2    50   Input ~ 0
+Text GLabel 4750 5850 2    50   Input ~ 0
 D_USB-
-Text GLabel 4750 6350 2    50   Input ~ 0
+Text GLabel 4750 5950 2    50   Input ~ 0
 D_USB+
 $Comp
 L power:+5V #PWR06
@@ -106,41 +106,41 @@ Wire Wire Line
 NoConn ~ 2050 2250
 NoConn ~ 2050 2350
 Wire Wire Line
-	3950 3700 3950 3850
+	3950 3300 3950 3450
 Wire Wire Line
-	4350 3850 4250 3850
-Connection ~ 3950 3850
-Connection ~ 4050 3850
+	4350 3450 4250 3450
+Connection ~ 3950 3450
+Connection ~ 4050 3450
 Wire Wire Line
-	4050 3850 3950 3850
-Connection ~ 4150 3850
+	4050 3450 3950 3450
+Connection ~ 4150 3450
 Wire Wire Line
-	4150 3850 4050 3850
-Connection ~ 4250 3850
+	4150 3450 4050 3450
+Connection ~ 4250 3450
 Wire Wire Line
-	4250 3850 4150 3850
+	4250 3450 4150 3450
 $Comp
 L power:GND #PWR020
 U 1 1 618DCDD4
-P 3950 7150
-F 0 "#PWR020" H 3950 6900 50  0001 C CNN
-F 1 "GND" H 3955 6977 50  0000 C CNN
-F 2 "" H 3950 7150 50  0001 C CNN
-F 3 "" H 3950 7150 50  0001 C CNN
-	1    3950 7150
+P 3950 6750
+F 0 "#PWR020" H 3950 6500 50  0001 C CNN
+F 1 "GND" H 3955 6577 50  0000 C CNN
+F 2 "" H 3950 6750 50  0001 C CNN
+F 3 "" H 3950 6750 50  0001 C CNN
+	1    3950 6750
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	4250 6850 4150 6850
+	4250 6450 4150 6450
 Wire Wire Line
-	3950 6850 3950 7150
-Connection ~ 3950 6850
-Connection ~ 4050 6850
+	3950 6450 3950 6750
+Connection ~ 3950 6450
+Connection ~ 4050 6450
 Wire Wire Line
-	4050 6850 3950 6850
-Connection ~ 4150 6850
+	4050 6450 3950 6450
+Connection ~ 4150 6450
 Wire Wire Line
-	4150 6850 4050 6850
+	4150 6450 4050 6450
 $Comp
 L Power_Protection:USBLC6-2SC6 U2
 U 1 1 61991CC6
@@ -214,12 +214,12 @@ Wire Wire Line
 $Comp
 L power:+3.3V #PWR012
 U 1 1 6199CAF2
-P 3950 3700
-F 0 "#PWR012" H 3950 3550 50  0001 C CNN
-F 1 "+3.3V" H 3965 3873 50  0000 C CNN
-F 2 "" H 3950 3700 50  0001 C CNN
-F 3 "" H 3950 3700 50  0001 C CNN
-	1    3950 3700
+P 3950 3300
+F 0 "#PWR012" H 3950 3150 50  0001 C CNN
+F 1 "+3.3V" H 3965 3473 50  0000 C CNN
+F 2 "" H 3950 3300 50  0001 C CNN
+F 3 "" H 3950 3300 50  0001 C CNN
+	1    3950 3300
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -765,11 +765,11 @@ Wire Wire Line
 	8950 4450 8800 4450
 Wire Wire Line
 	8800 4450 8800 4400
-Text GLabel 4750 5650 2    50   Input ~ 0
+Text GLabel 4750 5250 2    50   Input ~ 0
 SPI1_SCK
 Text GLabel 7950 4500 0    50   Input ~ 0
 SPI1_SCK
-Text GLabel 4750 5850 2    50   Input ~ 0
+Text GLabel 4750 5450 2    50   Input ~ 0
 SPI1_MOSI
 Text GLabel 7950 4600 0    50   Input ~ 0
 SPI1_MOSI
@@ -779,21 +779,21 @@ Text GLabel 7950 4300 0    50   Input ~ 0
 LCD_RST
 Text GLabel 7950 4200 0    50   Input ~ 0
 LCD_CS
-Text GLabel 4750 5750 2    50   Input ~ 0
+Text GLabel 4750 5350 2    50   Input ~ 0
 LCD_A0
-Text GLabel 4750 5550 2    50   Input ~ 0
+Text GLabel 4750 5150 2    50   Input ~ 0
 LCD_RST
-Text GLabel 4750 5450 2    50   Input ~ 0
+Text GLabel 4750 5050 2    50   Input ~ 0
 LCD_CS
 $Comp
 L MCU_ST_STM32F0:STM32F072C8Tx U4
 U 1 1 618DB153
-P 4150 5350
-F 0 "U4" H 4750 6950 50  0000 C CNN
-F 1 "STM32F072C8Tx" H 4750 6850 50  0000 C CNN
-F 2 "Package_QFP:LQFP-48_7x7mm_P0.5mm" H 3550 3950 50  0001 R CNN
-F 3 "http://www.st.com/st-web-ui/static/active/en/resource/technical/document/datasheet/DM00090510.pdf" H 4150 5350 50  0001 C CNN
-	1    4150 5350
+P 4150 4950
+F 0 "U4" H 4750 6550 50  0000 C CNN
+F 1 "STM32F072C8Tx" H 4750 6450 50  0000 C CNN
+F 2 "Package_QFP:LQFP-48_7x7mm_P0.5mm" H 3550 3550 50  0001 R CNN
+F 3 "http://www.st.com/st-web-ui/static/active/en/resource/technical/document/datasheet/DM00090510.pdf" H 4150 4950 50  0001 C CNN
+	1    4150 4950
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -1046,124 +1046,115 @@ F 4 "C128955" H 1350 4800 50  0001 C CNN "LCSC Part #"
 	1    1350 4800
 	-1   0    0    1   
 $EndComp
-$Sheet
-S 6200 5200 500  300 
-U 625301B3
-F0 "led_matrix" 50
-F1 "thpd-kb01-led.sch" 50
-F2 "DIN" I L 6200 5350 50 
-$EndSheet
 Text GLabel 1700 7150 3    50   Input ~ 0
 ROT_SW_COL
 Text GLabel 1500 7150 3    50   Input ~ 0
 ROT_SW_ROW
-Text GLabel 3450 6250 0    50   Input ~ 0
-ROT_A
-Text GLabel 3450 6350 0    50   Input ~ 0
-ROT_B
-Wire Wire Line
-	6200 5350 4750 5350
-Text GLabel 6200 2450 0    50   Input ~ 0
-ROW0
-Text GLabel 6200 2550 0    50   Input ~ 0
-ROW1
-Text GLabel 6200 2650 0    50   Input ~ 0
-ROW2
-Text GLabel 6200 2750 0    50   Input ~ 0
-ROW3
-Text GLabel 6200 2850 0    50   Input ~ 0
-ROW4
-Text GLabel 6200 2950 0    50   Input ~ 0
-ROW5
-Text GLabel 6200 3050 0    50   Input ~ 0
-COL0
-Text GLabel 6200 3150 0    50   Input ~ 0
-COL1
-Text GLabel 6200 3250 0    50   Input ~ 0
-COL2
-Text GLabel 6200 3350 0    50   Input ~ 0
-COL3
-Text GLabel 6200 3450 0    50   Input ~ 0
-COL4
-Text GLabel 6200 3550 0    50   Input ~ 0
-COL5
-Text GLabel 6200 3650 0    50   Input ~ 0
-COL6
-Text GLabel 6200 3750 0    50   Input ~ 0
-COL7
-Text GLabel 6200 3850 0    50   Input ~ 0
-COL8
-Text GLabel 6200 3950 0    50   Input ~ 0
-COL9
-Text GLabel 6200 4050 0    50   Input ~ 0
-COL10
-Text GLabel 6200 4150 0    50   Input ~ 0
-COL11
-Text GLabel 6200 4250 0    50   Input ~ 0
-COL12
-Text GLabel 6200 4350 0    50   Input ~ 0
-COL13
-Text GLabel 6200 4450 0    50   Input ~ 0
-COL14
-Text GLabel 6200 4550 0    50   Input ~ 0
-COL15
-Text GLabel 6200 4650 0    50   Input ~ 0
-COL16
-Text GLabel 6200 4750 0    50   Input ~ 0
-COL17
-Text GLabel 6200 4850 0    50   Input ~ 0
-COL18
-Text GLabel 3450 6550 0    50   Input ~ 0
-COL0
-Text GLabel 3450 6650 0    50   Input ~ 0
-COL1
-Text GLabel 4750 5950 2    50   Input ~ 0
-COL2
-Text GLabel 4750 6050 2    50   Input ~ 0
-COL3
-Text GLabel 4750 6150 2    50   Input ~ 0
-COL4
-Text GLabel 4750 6450 2    50   Input ~ 0
-COL5
-Text GLabel 4750 6550 2    50   Input ~ 0
-COL6
-Text GLabel 4750 6650 2    50   Input ~ 0
-COL7
-Text GLabel 3450 5450 0    50   Input ~ 0
-COL8
-Text GLabel 3450 5550 0    50   Input ~ 0
-COL9
-Text GLabel 3450 5650 0    50   Input ~ 0
-COL10
-Text GLabel 3450 5750 0    50   Input ~ 0
-COL11
 Text GLabel 3450 5850 0    50   Input ~ 0
-COL12
+ROT_A
 Text GLabel 3450 5950 0    50   Input ~ 0
-COL13
-Text GLabel 3450 6050 0    50   Input ~ 0
-COL14
-Text GLabel 3450 5150 0    50   Input ~ 0
-COL15
-Text GLabel 3450 5250 0    50   Input ~ 0
-COL16
-Text GLabel 3450 5350 0    50   Input ~ 0
-COL17
-Text GLabel 3450 6150 0    50   Input ~ 0
-COL18
-Text GLabel 3450 4750 0    50   Input ~ 0
+ROT_B
+Text GLabel 6100 3500 0    50   Input ~ 0
 ROW0
-Text GLabel 3450 4850 0    50   Input ~ 0
+Text GLabel 6100 3600 0    50   Input ~ 0
 ROW1
-Text GLabel 3450 4950 0    50   Input ~ 0
+Text GLabel 6100 3700 0    50   Input ~ 0
 ROW2
-Text GLabel 3450 4450 0    50   Input ~ 0
+Text GLabel 6100 3800 0    50   Input ~ 0
 ROW3
-Text GLabel 3450 4550 0    50   Input ~ 0
+Text GLabel 6100 3900 0    50   Input ~ 0
 ROW4
-Text GLabel 3450 6450 0    50   Input ~ 0
+Text GLabel 6100 4000 0    50   Input ~ 0
 ROW5
-NoConn ~ 4750 5150
+Text GLabel 6100 4100 0    50   Input ~ 0
+COL0
+Text GLabel 6100 4200 0    50   Input ~ 0
+COL1
+Text GLabel 6100 4300 0    50   Input ~ 0
+COL2
+Text GLabel 6100 4400 0    50   Input ~ 0
+COL3
+Text GLabel 6100 4500 0    50   Input ~ 0
+COL4
+Text GLabel 6100 4600 0    50   Input ~ 0
+COL5
+Text GLabel 6100 4700 0    50   Input ~ 0
+COL6
+Text GLabel 6100 4800 0    50   Input ~ 0
+COL7
+Text GLabel 6100 4900 0    50   Input ~ 0
+COL8
+Text GLabel 6100 5000 0    50   Input ~ 0
+COL9
+Text GLabel 6100 5100 0    50   Input ~ 0
+COL10
+Text GLabel 6100 5200 0    50   Input ~ 0
+COL11
+Text GLabel 6100 5300 0    50   Input ~ 0
+COL12
+Text GLabel 6100 5400 0    50   Input ~ 0
+COL13
+Text GLabel 6100 5500 0    50   Input ~ 0
+COL14
+Text GLabel 6100 5600 0    50   Input ~ 0
+COL15
+Text GLabel 6100 5700 0    50   Input ~ 0
+COL16
+Text GLabel 6100 5800 0    50   Input ~ 0
+COL17
+Text GLabel 6100 5900 0    50   Input ~ 0
+COL18
+Text GLabel 3450 6150 0    50   Input ~ 0
+COL0
+Text GLabel 3450 6250 0    50   Input ~ 0
+COL1
+Text GLabel 4750 5550 2    50   Input ~ 0
+COL2
+Text GLabel 4750 5650 2    50   Input ~ 0
+COL3
+Text GLabel 4750 5750 2    50   Input ~ 0
+COL4
+Text GLabel 4750 6050 2    50   Input ~ 0
+COL5
+Text GLabel 4750 6150 2    50   Input ~ 0
+COL6
+Text GLabel 4750 6250 2    50   Input ~ 0
+COL7
+Text GLabel 3450 5050 0    50   Input ~ 0
+COL8
+Text GLabel 3450 5150 0    50   Input ~ 0
+COL9
+Text GLabel 3450 5250 0    50   Input ~ 0
+COL10
+Text GLabel 3450 5350 0    50   Input ~ 0
+COL11
+Text GLabel 3450 5450 0    50   Input ~ 0
+COL12
+Text GLabel 3450 5550 0    50   Input ~ 0
+COL13
+Text GLabel 3450 5650 0    50   Input ~ 0
+COL14
+Text GLabel 3450 4750 0    50   Input ~ 0
+COL15
+Text GLabel 3450 4850 0    50   Input ~ 0
+COL16
+Text GLabel 3450 4950 0    50   Input ~ 0
+COL17
+Text GLabel 3450 5750 0    50   Input ~ 0
+COL18
+Text GLabel 3450 4350 0    50   Input ~ 0
+ROW0
+Text GLabel 3450 4450 0    50   Input ~ 0
+ROW1
+Text GLabel 3450 4550 0    50   Input ~ 0
+ROW2
+Text GLabel 4750 4850 2    50   Input ~ 0
+ROW3
+Text GLabel 4750 4950 2    50   Input ~ 0
+ROW4
+Text GLabel 3450 6050 0    50   Input ~ 0
+ROW5
+NoConn ~ 4750 4750
 Text GLabel 1950 4800 2    50   Input ~ 0
 BOOT0
 $Comp
@@ -1180,11 +1171,12 @@ F 4 "C25804" H 1750 4800 50  0001 C CNN "LCSC Part #"
 $EndComp
 Wire Wire Line
 	1950 4800 1850 4800
-Text GLabel 3450 4250 0    50   Input ~ 0
+Text GLabel 3450 3850 0    50   Input ~ 0
 BOOT0
-Text GLabel 3450 4050 0    50   Input ~ 0
+Text GLabel 3450 3650 0    50   Input ~ 0
 NRST
 Text GLabel 1550 3850 2    50   Input ~ 0
 NRST
-NoConn ~ 4750 5250
+NoConn ~ 3450 4150
+NoConn ~ 3450 4050
 $EndSCHEMATC
