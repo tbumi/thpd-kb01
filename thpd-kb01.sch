@@ -5,11 +5,11 @@ $Descr A4 11693 8268
 encoding utf-8
 Sheet 1 2
 Title "thpd-kb01"
-Date ""
+Date "2022-02-20"
 Rev "1.0"
 Comp "THPd"
-Comment1 ""
-Comment2 ""
+Comment1 "Copyright Trapsilo Bumi 2022"
+Comment2 "Licensed under the CERN-OHL-S v2"
 Comment3 ""
 Comment4 ""
 $EndDescr
